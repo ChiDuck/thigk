@@ -55247,7 +55247,7 @@ return new A.tp(new A.pb(r,new A.HA(s,s,1/0,56),s),A.Mo(new A.zj(new A.a3j(this)
 A.a3j.prototype={
 $0(){var s,r=this.a.d.H3(),q=B.vL.bC(B.aU.bC(r)),p=B.hq.gpA().bC(q.a),o=A.iU(p,"=","")
 window.localStorage.setItem("code_verifier",r)
-s=A.aoa("https","accounts.spotify.com","/authorize",A.aw(["client_id","07c2356ecc5642088f23b19cfaa47f90","response_type","code","redirect_uri","https://chiduck.github.io/thigk/","scope","user-read-private user-read-email","code_challenge_method","S256","code_challenge",o],t.N,t.z))
+s=A.aoa("https","accounts.spotify.com","/authorize",A.aw(["client_id","07c2356ecc5642088f23b19cfaa47f90","response_type","code","redirect_uri","https://chiduck.github.io/thigk/callback","scope","user-read-private user-read-email","code_challenge_method","S256","code_challenge",o],t.N,t.z))
 window.location.href=s.gi3()},
 $S:0}
 A.nP.prototype={

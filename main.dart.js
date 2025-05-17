@@ -70722,10 +70722,10 @@ return A.S($async$v2,r)}}
 A.FW.prototype={
 R(a){return new A.vJ(A.al(["/",new A.a1V(this),"/callback",new A.a1W(this),"/home",new A.a1X()],t.N,t.Ab),"/","Spotify PKCE OAuth Demo",null)}}
 A.a1V.prototype={
-$1(a){return new A.n_("07c2356ecc5642088f23b19cfaa47f90","https://chiduck.github.io/thigk/callback","user-read-private user-read-email",null)},
+$1(a){return new A.n_("07c2356ecc5642088f23b19cfaa47f90","https://chiduck.github.io/thigk/","user-read-private user-read-email",null)},
 $S:449}
 A.a1W.prototype={
-$1(a){return new A.m8("07c2356ecc5642088f23b19cfaa47f90","https://chiduck.github.io/thigk/callback",null)},
+$1(a){return new A.m8("07c2356ecc5642088f23b19cfaa47f90","https://chiduck.github.io/thigk/",null)},
 $S:450}
 A.a1X.prototype={
 $1(a){return new A.pk(null)},

@@ -57563,7 +57563,7 @@ o=B.w0.bG(B.aU.bG(m))
 m=B.hC.gqh().bG(o.a)
 l=A
 s=3
-return A.S(A.a8y("myapp",A.aqR("https","accounts.spotify.com","/authorize",A.aw(["response_type","code","client_id","07c2356ecc5642088f23b19cfaa47f90","redirect_uri","http://127.0.0.1:8000/callback","scope","user-read-email user-read-private","code_challenge_method","S256","code_challenge",A.j4(m,"=","")],t.N,t.z)).gim()),$async$pN)
+return A.S(A.a8y("myapp",A.aqR("https","accounts.spotify.com","/authorize",A.aw(["response_type","code","client_id","07c2356ecc5642088f23b19cfaa47f90","redirect_uri","https://chiduck.github.io/thigk/callback","scope","user-read-email user-read-private","code_challenge_method","S256","code_challenge",A.j4(m,"=","")],t.N,t.z)).gim()),$async$pN)
 case 3:n=l.dN(b,0,null).gHu().i(0,"code")
 q=n!=null?p.oM(n):null
 s=1
@@ -57579,7 +57579,7 @@ l=A.aw(["Content-Type","application/x-www-form-urlencoded"],m,m)
 k=p.d
 k===$&&A.e()
 s=3
-return A.S(A.au3(n,A.aw(["grant_type","authorization_code","code",a,"redirect_uri","http://127.0.0.1:8000/callback","client_id","07c2356ecc5642088f23b19cfaa47f90","code_verifier",k],m,m),l),$async$oM)
+return A.S(A.au3(n,A.aw(["grant_type","authorization_code","code",a,"redirect_uri","https://chiduck.github.io/thigk/callback","client_id","07c2356ecc5642088f23b19cfaa47f90","code_verifier",k],m,m),l),$async$oM)
 case 3:o=c
 n=o.b
 m=o.e

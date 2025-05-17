@@ -55187,7 +55187,7 @@ case 2:n=c
 q=n.b
 p=n.e
 o=n.w
-if(q===200)A.mf("Access Token: "+A.n(J.aM(B.bw.cT(0,A.ae4(J.aM(A.adf(p).c.a,"charset")).cT(0,o)),"access_token")))
+if(q===200)A.mf("Login success, Access Token: "+A.n(J.aM(B.bw.cT(0,A.ae4(J.aM(A.adf(p).c.a,"charset")).cT(0,o)),"access_token")))
 else A.mf("Token exchange failed: "+A.ae4(J.aM(A.adf(p).c.a,"charset")).cT(0,o))
 return A.T(null,r)}})
 return A.U($async$pD,r)},
